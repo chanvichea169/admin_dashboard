@@ -1,0 +1,8 @@
+https://api.telegram.org/bot${
+            vm.bot_toked
+          }/sendMessage?chat_id=${vm.chat_id}&text=${encodeURIComponent(
+            msg
+          )}&parse_mode=HTML;
+token: 7824297212:AAGaH84nH857iY2oi6cRS77wImTnIDI1xhc
+user: @vichea_notify_bot
+id: 642004992
